@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Time Tracking Dashboard</title>
+    <link href="https://fonts.googleapis.com/css2?family=Beau+Rivage&family=Cookie&family=Handlee&family=Orbitron:wght@400..900&family=Pompiere&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Sofia&family=TASA+Orbiter:wght@400..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="src/styles.css" />
+  </head>
+  <body>
+    <div class="contianer">
+      <div class="dashboard">
+        <div class="profile-card">
+          <div class="profile-info">
+            <img
+              src="src/My Profile.jpg"
+              alt="Profile Picture"
+              class="profile-pic"
+            />
+            <div class="profile-text">
+              <p>Report for</p>
+              <h1 class="name">Tyson</h1>
+            </div>
+          </div>
+          <div class="timeframe-filter">
+            <button class="filter-btn active" data-timeframe="daily">
+              Daily
+            </button>
+            <button class="filter-btn" data-timeframe="weekly">Weekly</button>
+            <button class="filter-btn" data-timeframe="monthly">Monthly</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="src/app.js"></script>
+  </body>
+</html>
